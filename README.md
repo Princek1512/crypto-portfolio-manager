@@ -34,8 +34,6 @@ An educational C++ application demonstrating advanced **Object-Oriented Programm
 ```
 crypto-portfolio-manager/
 ├── portfolio_manager.cpp   # Main source code
-├── holdings.txt           # User holdings data
-├── targets.txt            # Target allocation data
 ├── ASSIGNMENT.docx        # Detailed project report
 ├── ASSIGNMENT.pptx        # Project presentation
 └── README.md              # This file
