@@ -15,6 +15,7 @@ map<string, double> load_json(const string &filename) {
         if (key_end == string::npos) continue;
         string key = line.substr(key_start + 1, key_end - key_start - 1);
 
+        
         size_t colon = line.find(':', key_end);
         if (colon == string::npos) continue;
         double val = stod(line.substr(colon + 1));
@@ -181,4 +182,5 @@ int main() {
 
     cout << "Bye\n";
     return 0;
+
 }
